@@ -1,6 +1,6 @@
 streamlit
 tensorflow==2.10.1
-protobuf==3.19.6
+protobuf==3.20.3
 numpy
 pandas
 matplotlib
