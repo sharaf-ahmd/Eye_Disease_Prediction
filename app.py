@@ -1,14 +1,12 @@
+import os
+os.environ['TF_ENABLE_BFLOAT16_CONVERSION'] = '0'
+
 import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.applications.mobilenet_v3 import preprocess_input
 import numpy as np
 import tempfile
 import tensorflow_addons as tfa
-import os
-
-
-os.environ['TF_ENABLE_BFLOAT16_CONVERSION'] = '0'
-
 
 @st.cache_resource()
 def load_model():
