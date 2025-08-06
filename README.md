@@ -97,7 +97,7 @@ The model was trained on a large-scale dataset of over 84,000 expert-labeled OCT
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10
 - TensorFlow 2.10+
 - Streamlit
 - TensorFlow Addons
